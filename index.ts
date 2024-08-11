@@ -1,0 +1,5 @@
+export * from "./dist/src/kafka/kafka.module"
+export * from "./dist/src/kafka/kafka.service.consumer"
+export * from "./dist/src//kafka/kafka.service.producer"
+export * from "./dist/src/kafka/kafka.service.event-emitter"
+export * from "./dist/src//kafka/kafka.sevice.trasformers"

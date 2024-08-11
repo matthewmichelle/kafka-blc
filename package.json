@@ -1,0 +1,41 @@
+{
+  "name": "kafka-blc",
+  "version": "5.1.1",
+  "description": "A NestJS module for seamless Kafka integration, enabling request-response messaging and event handling with custom configuration options.",
+  "author": "Matthew Michelle (matthew.michelle14@gmail.com)",
+  "private": false,
+  "license": "MIT",
+  "scripts": {
+    "build": "nest build",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\""
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.0.0",
+    "@nestjs/event-emitter": "^2.0.4",
+    "kafkajs": "^2.2.4"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "src",
+    "testRegex": ".*\\.spec\\.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "collectCoverageFrom": [
+      "**/*.(t|j)s"
+    ],
+    "coverageDirectory": "../coverage",
+    "testEnvironment": "node"
+  },
+  "files": [
+    "dist",
+    "src",
+    "index.ts",
+    "package.json",
+    "README.md"
+  ]
+}
